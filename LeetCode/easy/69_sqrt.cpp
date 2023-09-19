@@ -3,7 +3,7 @@
 
 #include <string>
 
-int mySqrt(int x) 
+int mySqrt(int x)
 {
     if (x <= 1) {
         return x;
@@ -20,24 +20,24 @@ int mySqrt(int x)
     return x0;
 }
 
-int mySqrt_v2(int x) 
+int mySqrt_v2(int x)
 {
     if (x == 0) {
         return x;
-    } 
+    }
 
     int left = 1;
     int right = x;
-    while(left <= right){
+    while(left <= right) {
         int m= left + (right - left) *0.5;
         if (m == (x / m)) {
             return m;
         } else if ((x / m) < m) {
             right = m - 1;
         } else if ((x / m) > m) {
-            left = m + 1;         
+            left = m + 1;
         }
-    }     
+    }
 
     return right;
 }

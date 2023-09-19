@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-int singleNumber(std::vector<int>& numbers) 
+int singleNumber(std::vector<int>& numbers)
 {
     std::unordered_map<int, int> dict;
     for (auto num: numbers) {
@@ -16,10 +16,10 @@ int singleNumber(std::vector<int>& numbers)
         }
     }
 
-    return 0;        
+    return 0;
 }
 
-int singleNumber_v2(std::vector<int>& numbers) 
+int singleNumber_v2(std::vector<int>& numbers)
 {
     int result = 0;
     for (auto num: numbers) {
@@ -31,20 +31,21 @@ int singleNumber_v2(std::vector<int>& numbers)
 
 int main()
 {
-    // {
-    //     std::vector<int> numbers = {2, 2, 1};
-    //     std::cout << singleNumber_v2(numbers) << '\n';
-    // }
+    // 136. Single Number
+    {
+        std::vector<int> numbers = {2, 2, 1};
+        std::cout << singleNumber_v2(numbers) << '\n';
+    }
 
     {
         std::vector<int> numbers = {4, 1, 2, 1, 2};
         std::cout << singleNumber_v2(numbers) << '\n';
     }
 
-    // {
-    //     std::vector<int> numbers = {2, 2, 1};
-    //     std::cout << singleNumber(numbers) << '\n';
-    // }
+    {
+        std::vector<int> numbers = {2, 2, 1};
+        std::cout << singleNumber(numbers) << '\n';
+    }
 
     // {
     //     std::vector<int> numbers = {2};

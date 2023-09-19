@@ -7,40 +7,34 @@ int maxProfit(std::vector<int>& prices)
 {
     if (prices.size() < 2) {
         return 0;
-    } else {
-        int maxProfit = 0;
-        for (int i = prices.size() - 2, sellPrice = prices.back(); i >= 0; --i) {
-            sellPrice = std::max(sellPrice, prices.at(i));
-            maxProfit = std::max(maxProfit, sellPrice - prices.at(i));
-            // const int profit = sellPrice - prices.at(i);
-            // if (sellPrice < prices.at(i)) {
-            //     sellPrice = prices.at(i);
-            // } else if (profit > maxProfit) {
-            //     maxProfit = profit;
-            // }
-        }
-
-        return std::max(maxProfit, 0);
     }
+
+    int maxProfit = 0;
+    for (int i = prices.size() - 2, sellPrice = prices.back(); i >= 0; --i) {
+        sellPrice = std::max(sellPrice, prices.at(i));
+        maxProfit = std::max(maxProfit, sellPrice - prices.at(i));
+    }
+
+    return std::max(maxProfit, 0);
 }
 
 int maxProfit_v2(std::vector<int>& prices)
 {
     if (prices.size() < 2) {
         return 0;
-    } else {
-        int maxProfit = 0;
-        for (int i = prices.size() - 2, sellPrice = prices.back(); i >= 0; --i) {
-            const int profit = sellPrice - prices.at(i);
-            if (sellPrice < prices.at(i)) {
-                sellPrice = prices.at(i);
-            } else if (profit > maxProfit) {
-                maxProfit = profit;
-            }
-        }
-
-        return std::max(maxProfit, 0);
     }
+
+    int maxProfit = 0;
+    for (int i = prices.size() - 2, sellPrice = prices.back(); i >= 0; --i) {
+        const int profit = sellPrice - prices.at(i);
+        if (sellPrice < prices.at(i)) {
+            sellPrice = prices.at(i);
+        } else if (profit > maxProfit) {
+            maxProfit = profit;
+        }
+    }
+
+    return std::max(maxProfit, 0);
 }
 
 int main()
