@@ -12,7 +12,10 @@ int shortestPathLength(std::vector<std::vector<int>>& graph)
 
   for (int i = 0; i < graph.size(); ++i) {
     int mask = (1 << i);
-    sequence.push({i, {mask, 1}});
+    sequence.push({
+      i,
+      {mask, 1}
+    });
     visitedNodes[mask][i] = true;
   }
 
@@ -25,19 +28,22 @@ int shortestPathLength(std::vector<std::vector<int>>& graph)
     int currLen = entry.second.second;
 
     if (currMask == numVisitedNodeMasks) {
-        return currLen - 1;
+      return currLen - 1;
     }
 
     for (int i = 0; i < graph[currNode].size(); ++i) {
-        int neighbour = graph[currNode][i];
-        int newMask = currMask | (1 << neighbour);
+      int neighbour = graph[currNode][i];
+      int newMask = currMask | (1 << neighbour);
 
-        if (visitedNodes[newMask][neighbour]) {
-            continue;
-        }
+      if (visitedNodes[newMask][neighbour]) {
+        continue;
+      }
 
-        sequence.push({neighbour, {newMask, currLen + 1}});
-        visitedNodes[newMask][neighbour] = true;
+      sequence.push({
+        neighbour,
+        {newMask, currLen + 1}
+      });
+      visitedNodes[newMask][neighbour] = true;
     }
   }
 

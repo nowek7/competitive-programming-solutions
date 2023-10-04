@@ -1,8 +1,8 @@
 #include <cassert>
-#include <vector>
+#include <iostream>
 #include <unordered_map>
 #include <unordered_set>
-#include <iostream>
+#include <vector>
 
 int findDuplicate(std::vector<int>& nums)
 {
@@ -21,9 +21,9 @@ int findDuplicate_v2(std::vector<int>& nums)
   std::unordered_set<int> set;
   for (auto elem: nums) {
     if (set.count(elem) == 1) {
-        return elem;
+      return elem;
     } else {
-        set.insert(elem);
+      set.insert(elem);
     }
   }
   return -1;

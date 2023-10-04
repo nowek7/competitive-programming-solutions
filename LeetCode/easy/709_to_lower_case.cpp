@@ -1,7 +1,6 @@
 #include <algorithm>
-#include <string>
-
 #include <iostream>
+#include <string>
 
 std::string toLowerCase(std::string text)
 {
@@ -13,7 +12,7 @@ int main()
 {
   // 709. To Lower Case
   {
-    std::string text{"HeLlO"};
+    std::string text {"HeLlO"};
     std::cout << toLowerCase(text) << '\n';
   }
 

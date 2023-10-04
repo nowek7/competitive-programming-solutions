@@ -8,8 +8,7 @@ constexpr int ALPHABET_SIZE = 26;
 bool checkIfPangram(const std::string& sentence)
 {
   std::bitset<ALPHABET_SIZE> occurrences;
-  for (char c: sentence)
-  {
+  for (char c: sentence) {
     occurrences[c - ASCII_CODE_A] = true;
   }
 

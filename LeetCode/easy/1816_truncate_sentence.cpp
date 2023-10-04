@@ -7,17 +7,12 @@ std::string truncateSentence(std::string s, int k)
 
   int pos = 0;
   int prevPos = 0;
-  while ((pos = s.find_first_of(' ', prevPos)) != std::string::npos)
-  {
-    if (pos > prevPos)
-    {
+  while ((pos = s.find_first_of(' ', prevPos)) != std::string::npos) {
+    if (pos > prevPos) {
       result += s.substr(prevPos, pos - prevPos);
-      if (--k == 0)
-      {
+      if (--k == 0) {
         return result;
-      }
-      else
-      {
+      } else {
         result += " ";
       }
     }
@@ -25,8 +20,7 @@ std::string truncateSentence(std::string s, int k)
     prevPos = pos + 1;
   }
 
-  if (prevPos < s.length())
-  {
+  if (prevPos < s.length()) {
     result += s.substr(prevPos, std::string::npos);
   }
 

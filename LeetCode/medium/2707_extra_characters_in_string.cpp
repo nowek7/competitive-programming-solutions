@@ -1,9 +1,8 @@
 #include <algorithm>
+#include <iostream>
 #include <string>
 #include <unordered_set>
 #include <vector>
-
-#include <iostream>
 
 int minExtraChar(std::string s, std::vector<std::string>& dictionary)
 {
@@ -28,20 +27,13 @@ int main()
 {
   {
     std::string s = "leetscode";
-    std::vector<std::string> dictionary = {
-      "leet",
-      "code",
-      "leetcode"
-    };
+    std::vector<std::string> dictionary = {"leet", "code", "leetcode"};
     std::cout << minExtraChar(s, dictionary) << '\n';
   }
 
   {
     std::string s = "sayhelloworld";
-    std::vector<std::string> dictionary = {
-      "hello",
-      "world"
-    };
+    std::vector<std::string> dictionary = {"hello", "world"};
     std::cout << minExtraChar(s, dictionary) << '\n';
   }
 

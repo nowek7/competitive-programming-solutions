@@ -1,10 +1,10 @@
+#include <iostream>
 #include <string>
 #include <unordered_set>
-#include <iostream>
 
 int minDeletions(std::string s)
 {
-  int frequencies[26] = { 0 };
+  int frequencies[26] = {0};
   for (char c: s) {
     frequencies[c - 'a']++;
   }
@@ -30,7 +30,7 @@ int minDeletions(std::string s)
 
 int minDeletions_v2(std::string s)
 {
-  int frequencies[26] = { 0 };
+  int frequencies[26] = {0};
   for (char c: s) {
     frequencies[c - 'a']++;
   }
