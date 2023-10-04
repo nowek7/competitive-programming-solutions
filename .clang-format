@@ -1,0 +1,112 @@
+---
+AccessModifierOffset: -2
+Standard: c++20
+TabWidth: 2
+UseTab: Never
+IndentWidth: 2
+AlignAfterOpenBracket: BlockIndent
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AlignArrayOfStructures: Right
+AlignConsecutiveMacros: false
+AlignConsecutiveAssignments: false
+AlignEscapedNewlines: Left
+AlignOperands: DontAlign
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: Empty
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: false
+BinPackParameters: false
+BitFieldColonSpacing: After
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: true
+  AfterControlStatement: Never
+  AfterFunction: true
+  AfterNamespace: false
+  AfterStruct: true
+  AfterEnum: true
+  AfterUnion: true
+  AfterExternBlock: true
+  AfterObjCDeclaration: true
+  BeforeCatch: false
+  BeforeElse: false
+  BeforeLambdaBody: false
+  BeforeWhile: false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: false
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeConceptDeclarations: false
+BreakBeforeTernaryOperators: false
+BreakAfterJavaFieldAnnotations: true
+BreakBeforeInheritanceComma: false
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterComma
+BreakStringLiterals: true
+ColumnLimit: 120
+CompactNamespaces: false
+ConstructorInitializerIndentWidth: 2
+ContinuationIndentWidth: 2
+Cpp11BracedListStyle: true
+FixNamespaceComments: true
+IncludeBlocks: Regroup
+IndentPPDirectives: BeforeHash
+IndentCaseLabels: true
+IncludeCategories:
+  # Headers in "" with extension.
+  - Regex: '"([A-Za-z0-9.\/-_])+"'
+    Priority: 1
+  # Headers in <> with extension.
+  - Regex: '<([A-Za-z0-9.\/-_])+>'
+    Priority: 2
+  # Headers in <> from specific external libraries.
+  - Regex: '<(catch2)\/([A-Za-z0-9.\/-_])+>'
+    Priority: 3
+  # Headers in <> without extension.
+  - Regex: '<([A-Za-z0-9\/-_])+>'
+    Priority: 4
+InsertBraces: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+Language: Cpp
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: All
+PackConstructorInitializers: Never
+PointerAlignment: Left
+QualifierAlignment: Custom
+QualifierOrder: [ 'inline', 'constexpr', 'static' , 'const', 'volatile' , 'type' ]
+ReferenceAlignment: Left
+ReflowComments: false
+SeparateDefinitionBlocks: Always
+SortIncludes: CaseSensitive
+SortUsingDeclarations: true
+SpaceAfterCStyleCast: false
+SpaceAfterLogicalNot: false
+SpaceAfterTemplateKeyword: false
+SpaceAroundPointerQualifiers: Before
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCaseColon: false
+SpaceBeforeCpp11BracedList: true
+SpaceBeforeCtorInitializerColon: false
+SpaceBeforeInheritanceColon: false
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: false
+SpaceBeforeSquareBrackets: false
+SpaceInEmptyBlock: true
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 1
+SpacesInAngles: Never
+SpacesInCStyleCastParentheses: false
+SpacesInConditionalStatement: false
+SpacesInContainerLiterals: false
+SpacesInLineCommentPrefix:
+  Minimum: 1
+  Maximum: 1
+...
