@@ -47,8 +47,8 @@ int main()
   }
 
   {
-      std::vector<int> numbers = {2};
-      std::cout << singleNumber(numbers) << '\n';
+    std::vector<int> numbers = {2};
+    std::cout << singleNumber(numbers) << '\n';
   }
 
   return 0;
