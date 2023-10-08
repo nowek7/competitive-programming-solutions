@@ -36,6 +36,7 @@
   - [847. Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)
   - [1359. Counts All Valid Pickup And Delivery Options](https://leetcode.com/problems/counts-all-valid-pickup-and-delivery-options/description/)
   - [1420. Build Array Where You Can Find The Maximum Exactly k Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/description/)
+  - [1458. Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/description/)
 
 ## easy 
   - [1. Two Sum](https://leetcode.com/problems/two-sum/description/)
