@@ -34,11 +34,13 @@
   - [135. Candy](https://leetcode.com/problems/candy/description/)
   - [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/description/)
   - [847. Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)
+  - [1095. Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)
   - [1359. Counts All Valid Pickup And Delivery Options](https://leetcode.com/problems/counts-all-valid-pickup-and-delivery-options/description/)
   - [1420. Build Array Where You Can Find The Maximum Exactly k Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/description/)
   - [1458. Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/description/)
   - [2009. Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/description/)
   - [2251. Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom/description/)
+  - [2742. Painting The Walls](https://leetcode.com/problems/painting-the-walls/description/)
 
 ## easy 
   - [1. Two Sum](https://leetcode.com/problems/two-sum/description/)
@@ -79,6 +81,7 @@
   - [557. Reverse Words in a String Iii](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)
   - [706. Design Hashmap](https://leetcode.com/problems/design-hashmap/description/)
   - [709. to Lower Case](https://leetcode.com/problems/to-lower-case/description/)
+  - [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)
   - [830. Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/description/)
   - [876. Middle of The Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)
   - [896. Monotonic Array](https://leetcode.com/problems/monotonic-array/description/)
