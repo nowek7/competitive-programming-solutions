@@ -77,6 +77,7 @@
   - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
   - [268. Missing Number](https://leetcode.com/problems/missing-number/description/)
   - [338. Counting Bits](https://leetcode.com/problems/counting-bits/description/)
+  - [342. Power of Four](https://leetcode.com/problems/power-of-four/description/)
   - [344. Reverse String](https://leetcode.com/problems/reverse-string/description/)
   - [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)
   - [389. Find The Difference](https://leetcode.com/problems/find-the-difference/description/)
