@@ -5,6 +5,7 @@
   - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
   - [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
   - [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)
+  - [15. 3sum](https://leetcode.com/problems/3sum/description/)
   - [34. Find First And Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
   - [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/)
   - [74. Search a 2d Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
@@ -19,8 +20,11 @@
   - [343. Integer Breaks](https://leetcode.com/problems/integer-breaks/description/)
   - [377. Combinations Sum IV](https://leetcode.com/problems/combinations-sum-iv/description/)
   - [383. Ransom Note](https://leetcode.com/problems/ransom-note/description/)
+  - [443. String Compression](https://leetcode.com/problems/string-compression/description/)
   - [456. 132 Pattern](https://leetcode.com/problems/132-pattern/description/)
+  - [515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)
   - [725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/description/)
+  - [779. K th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/description/)
   - [799. Champagne Tower](https://leetcode.com/problems/champagne-tower/description/)
   - [880. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/description/)
   - [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain/description/)
@@ -34,6 +38,8 @@
 
 ## hard 
   - [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
+  - [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)
+  - [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)
   - [135. Candy](https://leetcode.com/problems/candy/description/)
   - [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/description/)
   - [847. Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)
