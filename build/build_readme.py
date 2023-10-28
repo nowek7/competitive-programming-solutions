@@ -16,12 +16,12 @@ PLATFORMS = {
 def filename_to_problem_name(raw_problem_name: str) -> str:
     words = raw_problem_name.split('_')
     assert(len(words) > 1)
-    problem_name = words[0] + '.'
+    problem_name = f'{words[0]}.'
     for i in range(1, len(words)):
         if len(words[i]) > 2:
-            problem_name += ' ' + words[i].capitalize();
+            problem_name += f' {words[i].capitalize()}';
         else:
-            problem_name += ' ' + words[i];
+            problem_name += f' {words[i]}';
 
     return problem_name
 

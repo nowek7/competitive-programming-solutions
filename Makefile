@@ -22,8 +22,8 @@ endif
 pretty_all:
 	@find ./ -type f \( -name '*.c' -o -name '*.cpp' \) -exec ${CLANG_FORMAT} ${FLAGS} {} \;
 
-generate:
-	${PYTHON} ./${BUILD_DIR}/build_readme.py
+generate: clean
+	@${PYTHON} ./${BUILD_DIR}/build_readme.py
 
 clean:
 	@find ./ -type f \( -name '*.o' -o -name '*output*' \) -exec rm -rf {} \;
