@@ -43,6 +43,7 @@
   - [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)
   - [135. Candy](https://leetcode.com/problems/candy/description/)
   - [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/description/)
+  - [458. Poor Pigs](https://leetcode.com/problems/poor-pigs/description/)
   - [847. Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)
   - [1095. Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)
   - [1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/description/)
