@@ -35,6 +35,7 @@
   - [1647. Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/description/)
   - [1658. Minimum Operations to Reduce x to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/)
   - [2038. Remove Colored Pieces if Both Neighbors Are The Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/description/)
+  - [2433. Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/)
   - [2707. Extra Characters in String](https://leetcode.com/problems/extra-characters-in-string/description/)
 
 ## hard 
@@ -93,6 +94,7 @@
   - [392. is Subsequence](https://leetcode.com/problems/is-subsequence/description/)
   - [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/)
   - [461. Hamming Distance](https://leetcode.com/problems/hamming-distance/description/)
+  - [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)
   - [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/)
   - [557. Reverse Words in a String Iii](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)
   - [706. Design Hashmap](https://leetcode.com/problems/design-hashmap/description/)
@@ -110,6 +112,7 @@
   - [1337. The k Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/)
   - [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/)
   - [1346. Check if n And Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/description/)
+  - [1356. Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)
   - [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/)
   - [1496. Path Crossing](https://leetcode.com/problems/path-crossing/description/)
   - [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)
