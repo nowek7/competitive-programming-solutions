@@ -31,10 +31,12 @@
   - [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain/description/)
   - [1282. Group The People Given The Group Size They Belong to](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/description/)
   - [1361. Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)
+  - [1441. Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)
   - [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
   - [1647. Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/description/)
   - [1658. Minimum Operations to Reduce x to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/)
   - [2038. Remove Colored Pieces if Both Neighbors Are The Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/description/)
+  - [2265. Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/)
   - [2433. Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/)
   - [2707. Extra Characters in String](https://leetcode.com/problems/extra-characters-in-string/description/)
 
