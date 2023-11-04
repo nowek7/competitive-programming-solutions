@@ -32,6 +32,7 @@
   - [1282. Group The People Given The Group Size They Belong to](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/description/)
   - [1361. Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/description/)
   - [1441. Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/description/)
+  - [1503. Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/description/)
   - [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
   - [1647. Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/description/)
   - [1658. Minimum Operations to Reduce x to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/)
