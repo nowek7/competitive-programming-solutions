@@ -39,10 +39,15 @@
   - [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
   - [1647. Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/description/)
   - [1658. Minimum Operations to Reduce x to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/)
+  - [1743. Restore The Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/description/)
+  - [1759. Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/description/)
+  - [1845. Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/description/)
+  - [1921. Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/description/)
   - [2038. Remove Colored Pieces if Both Neighbors Are The Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/description/)
   - [2265. Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/)
   - [2433. Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/)
   - [2707. Extra Characters in String](https://leetcode.com/problems/extra-characters-in-string/description/)
+  - [2849. Determine if a Cell is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/description/)
 
 ## hard 
   - [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
@@ -51,6 +56,7 @@
   - [135. Candy](https://leetcode.com/problems/candy/description/)
   - [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/description/)
   - [458. Poor Pigs](https://leetcode.com/problems/poor-pigs/description/)
+  - [815. Bus Routes](https://leetcode.com/problems/bus-routes/description/)
   - [847. Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)
   - [1095. Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)
   - [1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/description/)
@@ -61,6 +67,7 @@
   - [2009. Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/description/)
   - [2050. Parallel Courses Iii](https://leetcode.com/problems/parallel-courses-iii/description/)
   - [2251. Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom/description/)
+  - [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/description/)
   - [2742. Painting The Walls](https://leetcode.com/problems/painting-the-walls/description/)
 
 ## easy 
