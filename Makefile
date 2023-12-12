@@ -26,4 +26,4 @@ generate: clean
 	@${PYTHON} ./${BUILD_DIR}/build_readme.py
 
 clean:
-	@find ./ -type f \( -name '*.o' -o -name '*output*' \) -exec rm -rf {} \;
+	@find ./ -type f \( -name '*.o' -o -name '*output*' -o -name '*.out' \) -exec rm -rf {} \;

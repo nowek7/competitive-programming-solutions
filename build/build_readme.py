@@ -16,18 +16,16 @@ PLATFORMS = {
 def filename_to_problem_name(raw_problem_name: str) -> str:
     words = raw_problem_name.split('_')
     assert(len(words) > 1)
-    problem_name = f'{words[0]}.'
-    for i in range(1, len(words)):
-        if len(words[i]) > 2:
-            problem_name += f' {words[i].capitalize()}';
-        else:
-            problem_name += f' {words[i]}';
-
+    problem_name = f'{words[0]}. {words[1].capitalize()}'
+    for i in range(2, len(words)):
+        word = words[i];
+        problem_name += f' {word.capitalize()}' if len(words[i]) >= 2 else f' {word}'
     return problem_name
 
 def filename_to_problem_url_path(raw_problem_name: str) -> str:
     problem_url = raw_problem_name[raw_problem_name.find('_') + 1::]
     problem_url = problem_url.replace('_', '-')
+    problem_url = problem_url.replace('%', '')
     problem_url = problem_url.lower()
     return problem_url
 
@@ -91,10 +89,12 @@ def run() -> NoReturn:
     current_dir = os.getcwd()
     for name in PLATFORMS:
         platform_path = get_platform_path(current_dir, name)
-        files = get_solution_files(platform_path)
-        content = create_content(name, files)
-        create_readme_file(platform_path, content)
-
+        try:
+            files = get_solution_files(platform_path)
+            content = create_content(name, files)
+            create_readme_file(platform_path, content)
+        except ValueError as e:
+            print(f'Something gone wrong | args: {e.args}')
 
 if __name__ == "__main__":
     run()
