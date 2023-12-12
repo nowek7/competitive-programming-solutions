@@ -6,10 +6,10 @@ std::vector<int> twoSum(std::vector<int>& nums, int target)
 {
   std::vector<int> result(2);
 
-  for (int i = 0; i < nums.size(); ++i) {
-    for (int j = i + 1; j < nums.size(); ++j) {
+  for (std::size_t i = 0; i < nums.size(); ++i) {
+    for (std::size_t j = i + 1; j < nums.size(); ++j) {
       if (nums[i] + nums[j] == target) {
-        return {i, j};
+        return {static_cast<int>(i), static_cast<int>(j)};
       }
     }
   }
@@ -21,10 +21,10 @@ std::vector<int> twoSum_v2(std::vector<int>& nums, int target)
 {
   std::unordered_map<int, int> traversed;
 
-  for (int i = 0; i < nums.size(); ++i) {
+  for (std::size_t i = 0; i < nums.size(); ++i) {
     const int x = target - nums[i];
     if (traversed.find(x) != traversed.end()) {
-      return {i, traversed[x]};
+      return {static_cast<int>(i), traversed[x]};
     }
 
     traversed[nums[i]] = i;
