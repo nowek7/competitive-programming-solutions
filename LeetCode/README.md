@@ -161,6 +161,7 @@
   - [1816. Truncate Sentence](https://leetcode.com/problems/truncate-sentence/description/)
   - [1832. Is Pangram](https://leetcode.com/problems/is-pangram/description/)
   - [1903. Largest Odd Number In String](https://leetcode.com/problems/largest-odd-number-in-string/description/)
+  - [1913. Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/description/)
   - [1929. Concatenation Of Array](https://leetcode.com/problems/concatenation-of-array/description/)
   - [2138. Divide a String Into Groups Of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/description/)
   - [2264. Largest 3 Same Digit Number In String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/description/)
