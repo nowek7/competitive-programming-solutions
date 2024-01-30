@@ -1,0 +1,8 @@
+{
+  // Custom
+  "filename": {
+    "prefix": "filename",
+    "body": "$LINE_COMMENT ${TM_FILENAME_BASE/[\\_]/ /g}",
+    "description": ""
+  }
+}
