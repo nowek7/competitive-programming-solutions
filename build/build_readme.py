@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+from helpers import (
+    is_roman_number,
+    is_end_of_ordinal_number
+)
 import md_utils as mdu
 
 import os
@@ -16,10 +20,23 @@ PLATFORMS = {
 def filename_to_problem_name(raw_problem_name: str) -> str:
     words = raw_problem_name.split('_')
     assert(len(words) > 1)
+
     problem_name = f'{words[0]}. {words[1].capitalize()}'
     for i in range(2, len(words)):
         word = words[i];
-        problem_name += f' {word.capitalize()}' if len(words[i]) >= 2 else f' {word}'
+        if is_roman_number(word):
+            problem_name += f' {word.upper()}'
+        elif is_end_of_ordinal_number(word):
+            problem_name += f'-{word}'
+        elif len(word) >= 2:
+            problem_name += f' {word.capitalize()}'
+        else:
+            problem_name += f' {word}'
+
+    # Special case
+    if words[0] == '380':
+        problem_name = f'{problem_name[:-3]}0(1)'
+
     return problem_name
 
 def filename_to_problem_url_path(raw_problem_name: str) -> str:
