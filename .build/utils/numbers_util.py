@@ -1,3 +1,8 @@
+from os import path
+import sys
+
+sys.path.append(path.dirname(path.abspath(__file__)))
+
 def is_roman_number(word: str) -> bool:
     """
     Check if a word is a Roman number.

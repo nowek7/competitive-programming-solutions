@@ -1,4 +1,11 @@
-#!/usr/bin/python3
+import os
+import sys
+
+ROOT_DIR = os.path.dirname(os.path.dirname(__file__))
+sys.path.append(ROOT_DIR)
+CURRENT_DIR = os.path.dirname(__file__)
+PARENT_DIR = os.path.abspath(os.path.join(CURRENT_DIR, '..'))
+sys.path.append(PARENT_DIR)
 
 def get_header(text: str, level: int = 1) -> str:
     assert(level <= 6)

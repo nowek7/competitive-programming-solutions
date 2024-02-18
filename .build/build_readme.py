@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-from helpers import (
+from utils.numbers_util import (
     is_roman_number,
     is_end_of_ordinal_number
 )
-import md_utils as mdu
+import utils.markdown_util as mdu
 
 import os
 from os import path
@@ -14,6 +14,7 @@ PLATFORMS = {
     # 'AtCoder': '',
     # 'CodeForces': 'https://codeforces.com/',
     # 'HackerRank': 'https://www.hackerrank.com/',
+    'coderbyte': 'https://coderbyte.com/information/',
     'LeetCode': 'https://leetcode.com'
 }
 

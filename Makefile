@@ -1,5 +1,5 @@
 PYTHON       = /usr/bin/python3
-BUILD_DIR    = build
+BUILD_DIR    = .build
 CLANG_FORMAT = /usr/bin/clang-format-15
 FLAGS        = -Werror -i
 
@@ -9,6 +9,7 @@ STAGED_FILE_LIST := $(shell git diff --name-only --cached -- '*.h' '*.hpp' '*.c'
 
 help:
 	@echo "make pretty -> prettier code"
+	@echo "make readme -> generate readme file"
 
 pretty:
 ifneq ($(STAGED_FILE_LIST),)
@@ -22,8 +23,8 @@ endif
 pretty_all:
 	@find ./ -type f \( -name '*.c' -o -name '*.cpp' \) -exec ${CLANG_FORMAT} ${FLAGS} {} \;
 
-generate: clean
-	@${PYTHON} ./${BUILD_DIR}/build_readme.py
+readme: clean
+	@${PYTHON} ./${BUILD_DIR}/main.py
 
 clean:
-	@find ./ -type f \( -name '*.o' -o -name '*output*' -o -name '*.out' \) -exec rm -rf {} \;
+	@find ./ -type f \( -name '*.o' -o -name 'out' -o -name '*output*'  -o -name '*.out' \) -exec rm -rf {} \;
