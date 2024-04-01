@@ -1,0 +1,56 @@
+{
+  "version": "2.0.0",
+  "presentation": {
+    "reveal": "always",
+    "panel": "new"
+  },
+  "tasks": [
+    {
+      "label": "Compile opened C++ file",
+      "type": "shell",
+      "group": {
+        "isDefault":  true,
+        "kind": "build"
+      },
+      "presentation": {
+          "reveal": "always",
+          "panel": "shared",
+          "focus": true,
+          "clear": true,
+          "revealProblems": "onProblem"
+      },
+      "command": "/usr/bin/g++",
+      "args": ["-Wall", "-Werror", "-std=c++17", "${file}", "-o", "${fileDirname}/output.o"],
+      "problemMatcher": {
+        "owner": "cpp",
+        "fileLocation": ["relative", "${fileDirname}"],
+        "pattern": {
+          "regexp": "^(.):(\\d+):(\\d+):\\s+(warning|error):\\s+(.)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "severity": 4,
+          "message": 5
+        }
+      }
+    },
+    {
+      "label": "Run program",
+      "dependsOn": ["Compile opened C++ file"],
+      "type": "shell",
+      "group": {
+        "isDefault": true,
+        "kind": "test"
+      },
+      "presentation": {
+          "reveal": "always",
+          "panel": "new",
+          "focus": true,
+          "clear": true,
+          "revealProblems": "onProblem"
+      },
+      "command": "${fileDirname}/output.o"
+    },
+  ]
+}
+
