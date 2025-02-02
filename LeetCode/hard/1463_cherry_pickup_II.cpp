@@ -20,8 +20,8 @@ public:
 private:
   int solve(std::vector<std::vector<int>>& grid, int rowIdx, int firstRobotColIdx, int secondRobotColIdx)
   {
-    if (firstRobotColIdx < 0 || secondRobotColIdx < 0 ||
-            firstRobotColIdx >= grid[0].size() || secondRobotColIdx >= grid[0].size()) {
+    if (firstRobotColIdx < 0 || secondRobotColIdx < 0 || firstRobotColIdx >= grid[0].size()
+        || secondRobotColIdx >= grid[0].size()) {
       return 0;
     }
 

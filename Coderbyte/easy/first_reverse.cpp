@@ -1,5 +1,5 @@
-#include <iostream>
 #include <algorithm>
+#include <iostream>
 #include <string>
 
 std::string FirstReverse(std::string str)
