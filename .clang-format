@@ -5,9 +5,12 @@ TabWidth: 2
 UseTab: Never
 IndentWidth: 2
 AlignAfterOpenBracket: BlockIndent
+AlignTrailingComments:
+  Kind: Never
 AllowAllArgumentsOnNextLine: false
 AllowAllParametersOfDeclarationOnNextLine: false
 AlignArrayOfStructures: Right
+AllowBreakBeforeNoexceptSpecifier: OnlyWithParen
 AlignConsecutiveMacros: false
 AlignConsecutiveAssignments: false
 AlignEscapedNewlines: Left
@@ -75,6 +78,10 @@ IncludeCategories:
     Priority: 4
 InsertBraces: true
 KeepEmptyLinesAtTheStartOfBlocks: false
+KeepEmptyLines:
+  AtStartOfFile: false
+  AtEndOfFile: true
+  AtStartOfBlock: false
 Language: Cpp
 MaxEmptyLinesToKeep: 1
 NamespaceIndentation: All

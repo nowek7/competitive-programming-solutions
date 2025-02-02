@@ -1,6 +1,6 @@
 PYTHON       = /usr/bin/python3
 BUILD_DIR    = .build
-CLANG_FORMAT = /usr/bin/clang-format-15
+CLANG_FORMAT = /usr/bin/clang-format-19
 FLAGS        = -Werror -i
 
 STAGED_FILE_LIST := $(shell git diff --name-only --cached -- '*.h' '*.hpp' '*.c' '*.cpp')
@@ -17,7 +17,7 @@ ifneq ($(STAGED_FILE_LIST),)
 		${CLANG_FORMAT} ${FLAGS} $$file; \
 	done
 else
-	@echo "No files ready for commit! To execute "make pretty", please stage the files."
+	@echo "No files ready for commit! To execute 'make pretty', please stage the files."
 endif
 
 pretty_all:
