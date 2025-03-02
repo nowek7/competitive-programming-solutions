@@ -1,6 +1,6 @@
 PYTHON       = /usr/bin/python3
 BUILD_DIR    = .build
-CLANG_FORMAT = /usr/bin/clang-format-19
+CLANG_FORMAT = /usr/bin/clang-format
 FLAGS        = -Werror -i
 
 STAGED_FILE_LIST := $(shell git diff --name-only --cached -- '*.h' '*.hpp' '*.c' '*.cpp')

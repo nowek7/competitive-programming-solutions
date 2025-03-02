@@ -78,10 +78,6 @@ IncludeCategories:
     Priority: 4
 InsertBraces: true
 KeepEmptyLinesAtTheStartOfBlocks: false
-KeepEmptyLines:
-  AtStartOfFile: false
-  AtEndOfFile: true
-  AtStartOfBlock: false
 Language: Cpp
 MaxEmptyLinesToKeep: 1
 NamespaceIndentation: All
